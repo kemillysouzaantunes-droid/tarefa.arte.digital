@@ -88,6 +88,7 @@ figcaption {
     margin: 15px 0;
     border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
+    flex: 1 1 300px;
 }
 
 .card h3 {
@@ -122,3 +123,9 @@ button:hover {
     border-radius: 8px;
     cursor: pointer;
 }
+   .galeria {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
